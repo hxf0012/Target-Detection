@@ -33,3 +33,35 @@ train.py
 > 测试
 
 单张测试test_one.py | 批量测试test_images.py
+
+### Option 3 yoloV4 使用说明
+
+> 1、克隆darknet
+
+git clone https://github.com/AlexeyAB/darknet
+> 2、编译项目
+
+cpu环境下:
+
+cd darknet
+make
+
+gpu环境下:
+
+(1)修改darknet的Makefile文件，GPU/CUDNN/CUDNN_HALF/=1；OPENCV=0在服务器下可不用
+(2)然后执行make clean和make命令，重新进行编译
+
+> 3、下载预训练权重文件
+
+可以打开链接https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights下载好之后，放在darknet的文件夹下
+
+> 4、测试
+
+./darknet detector test ./cfg/coco.data ./cfg/yolov4.cfg ./yolov4.weights data/dog.jpg
+
+
+./darknet detector test ./cfg/coco.data ./cfg/yolov4.cfg ./yolov4-tiny.conv.29 data/dog.jpg
+
+> 测试结果
+
+在目录darknet下的predictions.jpg是产生的预测结果图像文件
