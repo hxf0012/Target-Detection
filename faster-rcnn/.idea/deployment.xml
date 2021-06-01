@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="hexiaofang@aiml.uestc.cn:22">
+    <serverData>
+      <paths name="aiml.uestc.cn">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hexiaofang/project/simple-faster-rcnn-pytorch-master-chenyun" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hexiaofang@aiml.uestc.cn:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hexiaofang/project/simple-faster-rcnn-pytorch-master-chenyun" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

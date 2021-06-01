@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://hexiaofang@121.48.165.52:22/home/hexiaofang/miniconda3/envs/test/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/hexiaofang/project/simple-faster-rcnn-pytorch-master-chenyun" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://hexiaofang@aiml.uestc.cn:22/home/hexiaofang/miniconda3/envs/test/bin/python" />
+      </list>
+    </list>
+  </component>
+</project>
