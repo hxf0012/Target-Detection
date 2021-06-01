@@ -1,6 +1,6 @@
 # Target-Detection
 
-### 1 mmdetection使用说明
+### Option 1 mmdetection使用说明
 
 >  数据存放路径
 
