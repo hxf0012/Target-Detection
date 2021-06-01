@@ -1,0 +1,6 @@
+classes= 1
+train  = myData/2007_train.txt
+valid  = myData/2007_val.txt
+test =  myData/2007_test.txt
+names =  myData/myData.names
+backup = myData/weights/

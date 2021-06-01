@@ -1,0 +1,2 @@
+/myData/VOCdevkit/VOC2007/JPEGImages/427.jpg
+
